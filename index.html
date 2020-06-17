@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horrifying</title>
+    <link rel= "stylesheet" type="text/css" href="style.css" media="screen"/>
+    <script src="script.js"></script>
+</head>
+<header>
+    <title>Horrify Yrself</title>
+</header>
+<body>
+  <script>
+      function ageVerify(age) {
+          if (age >= 18) {
+              return true;
+          } else {
+              return confirm('Do you have permission to view this webpage?');
+          }
+      }
+      let age = prompt('How old are you?', 18);
+
+      if ( ageVerify(age)) {
+          alert('Continue to page');
+      } else { 
+          window.location.href="https://www.commonsensemedia.org/reviews/category/movie/genre/horror-4551"; 
+      }
+
+
+      
+  </script>
+
+    <h1>Horror Films</h1>
+    <h1>Horror Comics</h1>
+    <h1>Horrible Links</h1>
+    
+
+    
+</body>
+<footer>About the Creator</footer>
+</html>
+</script>
